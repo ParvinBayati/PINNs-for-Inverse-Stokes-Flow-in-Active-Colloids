@@ -4,7 +4,7 @@
 
 This repository documents a Physics-Informed Neural Network (PINN) framework developed for solving inverse problems governed by the incompressible Stokes equations.
 
-The framework combines sparse observational data with governing physical laws to reconstruct unknown flow quantities while enforcing consistency with the underlying fluid dynamics.
+The framework combines sparse observational data with governing physical laws to reconstruct flow quantities such as slip velocity at the active particle surfaces that is hard to measure experimentally, while enforcing consistency with the underlying fluid dynamics.
 
 The methodology is applicable to a variety of low-Reynolds-number flow problems, including microfluidics, soft matter systems, active matter, and interfacial hydrodynamics.
 
@@ -27,6 +27,18 @@ where
 * $\mathbf{u}$ denotes the velocity field,
 * $p$ denotes the pressure field,
 * $\mu$ is the dynamic viscosity.
+
+### Boundary Conditions
+
+Fluid velocity on the active particle surface
+
+$$\mathbf{u}|_{S} = \mathbf{U} + \mathbf{\Omega} \times (\mathbf{r}-\mathbf{r}_0) + \mathbf{u}_s$$
+
+where $\mathbf{U}$ and $\mathbf{\Omega}$ are the translational and rotational velocities of the active particle and $\mathbf{u}_s$ is the slip velocity at the particle surface.
+
+In case there is a solid boundaries present, the fluid velocity follows no slip conditions on the boundaries:
+
+$$\mathbf{u}_{wall} = 0$$
 
 ---
 
