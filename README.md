@@ -84,7 +84,7 @@ The workflow consists of:
 
 ### Training Algorithm
 
-<img src="figures/Algorithm.jpg" width="500" alt="Architecture">
+<img src="figures/Algorithm.jpg" width="300" alt="Architecture">
 
 ### Loss Function Components
 
