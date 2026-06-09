@@ -4,7 +4,7 @@
 
 This repository documents a Physics-Informed Neural Network (PINN) framework developed for solving inverse problems governed by the incompressible Stokes equations.
 
-The framework combines sparse observational data with governing physical laws to reconstruct flow quantities such as slip velocity at the active particle surfaces that is hard to measure experimentally, while enforcing consistency with the underlying fluid dynamics.
+The framework combines sparse observational data with governing physical laws to reconstruct flow quantities such as slip velocity $u_s$ at the active particle surfaces that is hard to measure experimentally, while enforcing consistency with the underlying fluid dynamics.
 
 The methodology is applicable to a variety of low-Reynolds-number flow problems, including microfluidics, soft matter systems, active matter, and interfacial hydrodynamics.
 
