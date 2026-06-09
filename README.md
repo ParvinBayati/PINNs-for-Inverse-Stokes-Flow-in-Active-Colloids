@@ -82,9 +82,9 @@ The workflow consists of:
 
 ![Architecture](figures/architecture.jpg)
 
-### Training Workflow
+### Training Algorithm
 
-![Workflow](figures/workflow.png)
+![Workflow](figures/Algorithm.png)
 
 ### Loss Function Components
 
