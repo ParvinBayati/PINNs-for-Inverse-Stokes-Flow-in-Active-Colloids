@@ -15,16 +15,16 @@ The methodology is applicable to a variety of low-Reynolds-number flow problems,
 The model is based on the incompressible Stokes equations
 
 $$
--\nabla p + \mu \nabla^2 \mathbf{u} = \mathbf{0}
+-\nabla p + \mu \nabla^2 \boldsymbol{u} = \boldsymbol{0}
 $$
 
 $$
-\nabla \cdot \mathbf{u} = 0
+\nabla \cdot \boldsymbol{u} = 0
 $$
 
 where
 
-* $\mathbf{u}$ denotes the velocity field,
+* $\boldsymbol{u}$ denotes the velocity field,
 * $p$ denotes the pressure field,
 * $\mu$ is the dynamic viscosity.
 
@@ -32,13 +32,13 @@ where
 
 Fluid velocity on the active particle surface
 
-$$\mathbf{u}|_{S} = \mathbf{U} + \mathbf{\Omega} \times (\mathbf{r}-\mathbf{r}_0) + \mathbf{u}_s$$
+$$\boldsymbol{u}|_{S} = \boldsymbol{U} + \boldsymbol{\Omega} \times (\boldsymbol{r}-\boldsymbol{r}_0) + \boldsymbol{u}_s$$
 
-where $\mathbf{U}$ and $\mathbf{\Omega}$ are the translational and rotational velocities of the active particle and $\mathbf{u}_s$ is the slip velocity at the particle surface.
+where $\boldsymbol{U}$ and $\boldsymbol{\Omega}$ are the translational and rotational velocities of the active particle and $\boldsymbol{u}_s$ is the slip velocity at the particle surface.
 
 In case there is a solid boundaries present, the fluid velocity follows no slip conditions on the boundaries:
 
-$$\mathbf{u}_{wall} = 0$$
+$$\boldsymbol{u}_{wall} = 0$$
 
 ---
 
@@ -109,8 +109,6 @@ The workflow consists of:
 The scientific results associated with this work are available in:
 
 https://arxiv.org/abs/2511.22723
-
-DOI: https://doi.org/10.48550/arXiv.2511.22723
 
 ---
 
