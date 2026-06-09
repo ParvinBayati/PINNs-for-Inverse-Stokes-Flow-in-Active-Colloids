@@ -84,7 +84,7 @@ The workflow consists of:
 
 ### Training Algorithm
 
-![Workflow](figures/Algorithm.png)
+![Workflow](figures/Algorithm.jpg)
 
 ### Loss Function Components
 
