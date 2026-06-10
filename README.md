@@ -119,7 +119,8 @@ The workflow consists of:
 
 ### Predicted Velocity Field and Slip Velocity
 
-![Velocity Prediction](figures/Figure_results.png)
+<img src="figures/Figure_results.png" width="600" alt="flow field">
+
 
 Comparison of PINN-predicted (blue) and BEM (pink) flow fields in the $yz$-plane for squirmer and phoretic Janus particles in the laboratory frame.
 Panels (a,c) show unbounded cases: a puller squirmer with $\beta_s = 5$ and a Janus particle with $\beta_p = -10$.
@@ -131,7 +132,9 @@ Velocities are normalized by the swimming speed $|U|$.
 
 ### Convergence History
 
-![Convergence](figures/loss_function.png)
+<img src="figures/loss_function.png" width="400" alt="flow field">
+
+Loss history of the case of a Janus particle with $\beta_p = -10$ near a wall with the particle centered at $z_0/a = 2$ and oriented at $\mathrm{rot}_x = \pi/3$.
 
 ---
 
