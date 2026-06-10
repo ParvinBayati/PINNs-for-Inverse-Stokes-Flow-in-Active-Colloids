@@ -117,7 +117,7 @@ The workflow consists of:
 24. **Save final trained parameters $W$ and $b$**
 25. **Prediction:** Apply the trained model on test data points to predict the velocity.
 
-### Predicted Velocity Field
+### Predicted Velocity Field and Slip Velocity
 
 ![Velocity Prediction](figures/velocity_prediction.png)
 
