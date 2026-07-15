@@ -1,4 +1,4 @@
-# Physics-Informed Neural Network for Inverse Stokes Flow
+# Physics-Informed Neural Network for Inverse Stokes Flow of Active Colloids
 
 ## Overview
 
