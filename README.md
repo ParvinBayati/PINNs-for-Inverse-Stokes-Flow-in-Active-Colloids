@@ -142,7 +142,24 @@ Loss history of the case of a Janus particle with $\beta_p = -10$ near a wall wi
 
 <img src="figures/loss_function.png" width="400" alt="flow field">
 
-![](figures/PINN_flow_density.gif)
+<table>
+<tr>
+<td align="center">
+
+<b>PINN Training (Animation)</b><br>
+<img src="figures/PINN_flow_density.gif" width="420">
+
+</td>
+
+<td align="center">
+
+<b>BEM Reference</b><br>
+<img src="figures/flow_density_BEM.png" width="420">
+
+</td>
+</tr>
+</table>
+
 ---
 
 
