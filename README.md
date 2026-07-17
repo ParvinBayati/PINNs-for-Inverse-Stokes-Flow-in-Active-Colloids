@@ -138,6 +138,14 @@ Loss history of the case of a Janus particle with $\beta_p = -10$ near a wall wi
 
 ---
 
+### Convergence History
+
+<img src="figures/loss_function.png" width="400" alt="flow field">
+
+![](figures/PINN_flow_density.gif)
+---
+
+
 ## Publication
 
 The scientific results associated with this work are available in:
