@@ -130,7 +130,7 @@ In all cases, open symbols denote PINN results and filled symbols denote BEM pre
 For the squirmer, solid curves in panels (b,f) show the analytical slip distribution used as reference.
 Velocities are normalized by the swimming speed $|U|$.
 
-### Convergence History
+### Convergence History (loss values)
 
 <img src="figures/loss_function.png" width="400" alt="flow field">
 
@@ -138,29 +138,27 @@ Loss history of the case of a Janus particle with $\beta_p = -10$ near a wall wi
 
 ---
 
-### Convergence History
-
-<img src="figures/loss_function.png" width="400" alt="flow field">
+### Convergence History (fluid velocify field)
 
 <table>
 <tr>
 <td align="center">
 
 <b>PINN Prediction </b><br>
-<img src="figures/PINN_flow_density.gif" width="420">
+<img src="figures/PINN_flow_density.gif" width="320">
 
 </td>
 
 <td align="center">
 
 <b>BEM Reference</b><br>
-<img src="figures/BEM_flow_density.gif" width="420">
+<img src="figures/BEM_flow_density.gif" width="320">
 
 </td>
 <td align="center">
 
 <b>BEM Reference</b><br>
-<img src="figures/BEM_flow_density_noise.gif" width="420">
+<img src="figures/BEM_flow_density_noise.gif" width="320">
 
 </td>
 </tr>
