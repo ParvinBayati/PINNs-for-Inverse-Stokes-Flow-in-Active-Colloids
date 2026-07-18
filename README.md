@@ -132,37 +132,26 @@ Velocities are normalized by the swimming speed $|U|$.
 
 ### Convergence History (loss values)
 
-<img src="figures/loss_function.png" width="400" alt="flow field">
+<img src="figures/loss_function.png" width="300" alt="flow field">
 
 Loss history of the case of a Janus particle with $\beta_p = -10$ near a wall with the particle centered at $z_0/a = 2$ and oriented at $\mathrm{rot}_x = \pi/3$.
 
 ---
 
-### Convergence History (fluid velocify field)
+### PINN Convergence vs. BEM Reference (fluid flow)
 
-<table>
-<tr>
-<td align="center">
 
-<b>PINN Prediction </b><br>
-<img src="figures/PINN_flow_density.gif" width="220">
+<div align="center">
+<img src="figures/PINN_flow_density.gif" width="32%">
+   <img src="figures/BEM_flow_density_noise.gif" width="32%">
+   <img src="figures/BEM_flow_density.gif" width="32%">
+</div>
 
-</td>
-
-<td align="center">
-
-<b>BEM noisy training data </b><br>
-<img src="figures/BEM_flow_density_noise.gif" width="220">
-
-</td>
-<td align="center">
-
-<b>BEM Reference </b><br>
-<img src="figures/BEM_flow_density.gif" width="220">
-
-</td>
-</tr>
-</table>
+<p align="center">
+<b>Left:</b> PINN convergence &nbsp;&nbsp;&nbsp;&nbsp;
+<b>Right:</b> noisy training data  &nbsp;&nbsp;&nbsp;&nbsp;
+<b>Right:</b> BEM reference
+</p>
 
 ---
 
