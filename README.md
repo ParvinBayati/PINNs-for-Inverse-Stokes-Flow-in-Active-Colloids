@@ -166,7 +166,7 @@ Loss history of the case of a Janus particle with $\beta_p = -10$ near a wall wi
 
 The scientific results associated with this work are available in:
 
-https://arxiv.org/abs/2511.22723
+Phys. Rev. E 114, 035413 (DOI: https://doi.org/10.1103/nnym-rqlx)
 
 ---
 
